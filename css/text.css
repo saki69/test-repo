@@ -1,0 +1,83 @@
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font: 12px 'Segoe UI', 'Myriad Pro', Corbel, Arial, 'Liberation Sans', FreeSans, sans-serif;
+	color:#000;
+}
+hr {
+	border: 0 #ccc solid;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+h1 {
+	font-size:26px;
+}
+
+h2 {
+	font-size:24px;
+}
+
+h3 {
+	font-size:22px;
+}
+
+h4 {
+	font-size:20px;
+}
+
+h5 {
+	font-size:18px;
+}
+
+h6 {
+	font-size:16px;
+}
+
+/* `Links
+----------------------------------------------------------------------------------------------------*/
+a{
+	color:#80bb01;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+}

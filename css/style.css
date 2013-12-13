@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* Base Style CSS Document */
+.clear{
+	clear:both;
+}
+header{
+	width:950px;
+	height:90px;
+	margin:10px auto 30px auto;
+	position:relative;
+}
+header .Logo{
+	width:220px;
+	height:97px;
+	margin:0 10px 0 0;
+	float:left;
+}
+header .Logo img{
+	width:200px;
+}
+header .Top-Right{
+	width: 720px;
+	height:95px;
+	float:right;
+	text-align:right;
+	border-bottom:2px solid #80bb01;
+}
+header form{
+}
+header form input[type=text]{
+	border:1px solid #80bb01;
+	padding:10px;
+}
+header form input[type=submit]{
+	border:none;
+	background:#80bb01;
+	color:#fff;
+	height:36px;
+	padding:0 15px;
+}
+header nav{
+	position:absolute;
+	bottom:5px;
+	right:0;
+}
+header nav ul li{
+	display:inline-block;
+	margin:0 0 0 20px;
+}
+header nav ul li a{
+	color:#80bb01;
+}
+header nav ul li a:hover{
+	text-decoration:none;
+	color:#8749EE;
+}
+footer{
+	width:100%;
+	padding:10px 0;
+	background:#80bb01;
+	text-align:center;
+	color:#fff;
+}
+.Content-Wrapper{
+	width:950px;
+	margin:0 auto 10px auto;
+}
+.Content-Wrapper .login-form{
+	width:255px;
+	margin:0 auto;
+}
+.Content-Wrapper .login-form form label{
+	font-size:14px;
+}
+.Content-Wrapper .login-form form input[type=text],input[type=password]{
+	width:230px;
+	padding:10px;
+	border:1px solid #80bb01;
+}
+.Content-Wrapper .login-form form input[type=submit]{
+	background:#80bb01;
+	padding:6px 10px;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+}
+.Content-Wrapper aside{
+	width:190px;
+	min-height:455px;
+	margin:0 10px 0 0;
+	float:left;
+	border:1px solid #eee;
+}
+.Content-Wrapper aside h3{
+	background:#eee;
+	color:#000;
+	padding:5px 0;
+	text-align:center;
+}
+.Content-Wrapper aside .crop-unit{
+	padding:10px;
+}
+.Content-Wrapper aside .crop-unit ul li{
+	margin-bottom:10px;
+}
+.Content-Wrapper aside .crop-unit ul li:hover{
+}
+.Content-Wrapper aside .crop-unit ul a:hover{
+}
+.Content-Wrapper aside .crop-unit ul li a h6,p{
+	margin-left:90px;
+}
+.Content-Wrapper aside .notifications{
+}
+.Content-Wrapper aside .notifications a{
+background: #80bb01;
+padding: 5px 10px;
+color:#fff;
+float:right;
+margin-top:10px;
+}
+.Content-Wrapper aside .notifications .notification-unit{
+	margin: 10px 10px;
+	border-bottom: 1px dashed #80bb01;
+	padding-bottom:10px;
+}
+.Content-Wrapper .Main-Conent{
+	width:740px;
+	float:right;
+}
+.Content-Wrapper .Main-Conent a.notify{
+	float:left;
+	background:#eee;
+	font-size:10px;
+	padding:4px 10px;
+	text-align:center;
+	margin:0 5px 0 0;
+}
+.Content-Wrapper .Main-Conent a.notify:hover{
+	color:#666;
+	text-decoration:none;
+}
+.Content-Wrapper .Main-Conent h1{
+	text-align:right;
+	margin:0 0 20px 0;
+}
+.Content-Wrapper .Main-Conent a.Button{
+	display:inline-block;
+	padding:5px 15px;
+	font-size:10px;
+	color:#fff;
+	background:#80bb01;
+	float:left;
+	margin:0 5px 0 0;
+}
+.Content-Wrapper .Main-Conent .Content-View{
+	
+}
+.Content-Wrapper .Main-Conent .Content-View a.Tab{
+	display:inline-block;
+	padding:5px 15px;
+	color:#fff;
+	background:#80bb01;
+	border:1px solid #80bb01;
+	float:right;
+	margin:0 2px 0 0;
+	font-size:12px;
+}
+.Content-Wrapper .Main-Conent .Content-View a.Current{
+	background:#fff;
+	border:1px solid #80bb01;
+	border-bottom:1px solid #fff;
+	color:#000;
+}
+.Content-Wrapper .Main-Conent .Content-View .Panel{
+	font-size:12px;
+	padding:20px;
+	min-height:325px;
+	border:1px solid #80bb01;
+	margin:-1px 0 0 0;
+}
+.Content-Wrapper .Main-Conent .Content-View .Panel span{
+	color:#80bb01;
+}
+.Content-Wrapper .Main-Conent .Content-View .Panel .Panel-Left{
+	width:330px;
+	float:left;
+}
+.Content-Wrapper .Main-Conent .Content-View .Panel .Panel-Right{
+	width:330px;
+	float:right;
+	overflow:hidden;
+}
+.Content-Wrapper .Main-Conent .Content-View .Panel .Panel-Right img{
+	width:330px;
+	margin-bottom:10px;
+}
+.Content-Wrapper .Main-Conent .Content-View .Quick-Links{
+	width:120px;
+	height:400px;
+	float:left;
+}
+.Content-Wrapper .Main-Conent .Content-View .Quick-Links a{
+	width:120px;
+	height: 120px;
+	position:relative;
+	padding: 0;
+	margin:0 0 10px 0;
+	display:block;
+	background:#80bb01;
+	color:#fff;
+	font-size: 18px;
+}
+.Content-Wrapper .Main-Conent .Content-View .Quick-Links a div{
+	padding:20px 0 0 20px;
+}
+.Content-Wrapper .Main-Conent .Content-View .Quick-Links a img{
+	position:absolute;
+	bottom:0;
+	right:0;
+	margin:5px;
+}
+.Content-Wrapper .Main-Conent .Content-View .Update{
+	width:560px;
+	height:337px;
+	padding:20px;
+	float:right;
+	border:1px solid #80bb01;
+}
+.Content-Wrapper .Main-Conent .Content-View .view{
+	width:560px;
+	min-height:337px;
+	padding:20px;
+	float:right;
+	border:1px solid #80bb01;
+	text-align:left;
+}
+.Content-Wrapper .Main-Conent .Content-View .view p{
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+.Content-Wrapper .Main-Conent .Content-View .view .ask-expert{
+}
+.Content-Wrapper .Main-Conent .Content-View .view .ask-expert form{
+	margin:0;
+	padding:0;
+}
+.Content-Wrapper .Main-Conent .Content-View .view .ask-expert form label{
+	font-size:14px;
+}
+.Content-Wrapper .Main-Conent .Content-View .view .ask-expert form textarea{
+	width:540px;
+	height:50px;
+	padding:10px;
+	border:none;
+	font-family: 'Segoe UI';
+}
+.Content-Wrapper .Main-Conent .Content-View .view .ask-expert form input[type=submit]{
+	background: #80bb01;
+	padding:6px 0;
+	width:60px;
+	border:none;
+	color: #fff;
+}
+.Content-Wrapper .Main-Conent .Content-View .view .crop-specific-list{
+}
+.Content-Wrapper .Main-Conent .Content-View .view .crop-specific-list table tr{
+	border-bottom:1px dashed #80bb01;
+}
+.Content-Wrapper .Main-Conent .Content-View .view .crop-specific-list table tr th{
+	color:#333333;
+	padding:10px 10px;
+	text-align:center;
+	font-weight:normal;
+	font-size:16px;
+}
+.Content-Wrapper .Main-Conent .Content-View .view .crop-specific-list table tr td{
+	padding:10px 10px;
+	text-align:center;
+}
+.Content-Wrapper .Main-Conent .Content-View .view .crop-specific-list h2{
+	color:#333;
+}
+.Content-Wrapper .Main-Conent .Content-View .Update h4{
+	color:#80bb01;
+}
+.Content-Wrapper .Main-Conent .Content-View .Update span{
+	font-size:20px;
+	color:#80bb01;
+}
+.Content-Wrapper .Main-Conent .Content-View .Update .At-A-Glance{
+	width:240px;
+	float:left;
+}
+.Content-Wrapper .Main-Conent .Content-View .Update .At-A-Glance table tr td{
+	height:30px;
+	width:120px;
+}
+.Content-Wrapper .Main-Conent .Content-View .Update .Notification{
+	width:300px;
+	float:right;
+}
+.Content-Wrapper .Main-Conent .Content-View .view .admin-dash-unit{
+	width: 174px;
+	height: 200px;
+	border: 1px dashed #80bb01;
+	margin:0;
+	background: #fff;
+	float:left;
+	margin: 0 5px 10px 5px;
+}
